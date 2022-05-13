@@ -17,7 +17,7 @@ tar -xzvf /tmp/wordpress.tar.gz -C /var/www
 chown -R www-data.www-data /var/www/wordpress
 ```
 
-#Set Your Database Configuration in wp-config.php
+## Set Your Database Configuration in wp-config.php
 mv wp-config-sample.php wp-config.php
 
 ```
