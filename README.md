@@ -1,7 +1,7 @@
 
 ## Install Mysql & PHP & PHP-FPM
 ```
-apt update && apt install mysql-server  php8.1 php-imagick php8.1-fpm php8.1-mbstring php8.1-bcmath php8.1-xml php8.1-mysql  php8.1-common php8.1-gd  php8.1-cli php8.1-curl php8.1-zip -y
+apt update && apt install nginx mysql-server  php8.1 php-imagick php8.1-fpm php8.1-mbstring php8.1-bcmath php8.1-xml php8.1-mysql  php8.1-common php8.1-gd  php8.1-cli php8.1-curl php8.1-zip -y
 
 ```
 
@@ -23,7 +23,7 @@ chown -R www-data.www-data /var/www/wordpress
 mv wp-config-sample.php wp-config.php
 
 ```
-DB NAME ==> wordpres_db
+DB NAME ==> wordpress_db
 DB USERNAME  packops
 DB PASSWORD   1234
 ```
